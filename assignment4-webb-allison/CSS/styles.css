@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: lightgreen;
+    text-align: center;
+    margin-bottom: 20px
+
+}
+
+main {
+  max-width: 1025px;
+  margin: 0 auto;
+
+}
+
+p {
+  width: 40%;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+a:hover {
+  color: blue;
+}
+
+header nav {
+    display:inline-block;
+    width: 50%;
+}
+
+header h1{
+  padding: 30px;
+}
+
+header li{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header nav a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.block1 {
+    padding-top: 130px;
+}
+
+.fountain {
+    float: right;
+    animation-name: spout;
+    animation-duration: 2s;
+  }
+
+  span {
+    color: blue;
+  }
+
+h2 {
+    color: white;
+    left: 150px;
+    bottom: 300px;
+    position: relative;
+}
+
+.block2 {
+    position: relative;
+}
+
+.block2 p {
+  position: absolute;
+  top: 386px;
+  text-align: center;
+  left: 49px;
+  color: white;
+  font-size: 18px;
+}
+
+
+
+
+@keyframes spout {
+  from {
+    transform:translateY(100px);
+    to{
+      transform: translateY(500px);
+    }
+  }
+
+
+}
